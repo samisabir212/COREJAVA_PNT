@@ -6,21 +6,15 @@ import java.util.List;
 public class Refigerator {
 
 
-
     public static void main(String[] args) {
 
         Refigerator fridge = new Refigerator();
 
+        Refigerator frezer = new Refigerator();
+
+
         fridge.openFridge("opened");
-
-        freezer fz = new freezer();
-
-        fz.openFreezer("teeth");
-
-        fridge.calculateFrozenFish();
-
-
-
+        frezer.openFreezer();
 
 
     }
@@ -32,37 +26,25 @@ public class Refigerator {
 
     }
 
-    public void calculateFrozenFish() {
+    public void openFreezer() {
 
-        freezer fz = new freezer();
+        boolean freezerOpened = true;
 
-        fz.addFish();
-    }
-
-
-    public static class freezer {
-
-
-        int salmonCount = 4;
-        int flounderCount = 2;
-        int shrimpCount = 3;
-        int codCount = 2;
-
-        public void openFreezer(String action) {
-
-            System.out.println("I opend the freezer with my " + action);
+        if (freezerOpened = false) {
+            System.out.println("freezer is closes");
+        }else{
+            System.out.println(" freezer is open");
 
         }
 
-        public void addFish() {
 
-            int sumOfTotalFish = salmonCount + flounderCount + shrimpCount + codCount;
-
-            System.out.println("total amount of fish in freezer is "+ sumOfTotalFish);
-
-        }
 
     }
+
+
+
+
+
 
 
 }

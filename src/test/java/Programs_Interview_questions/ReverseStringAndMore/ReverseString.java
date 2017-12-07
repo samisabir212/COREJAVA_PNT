@@ -1,4 +1,4 @@
-package ReverseStringAndMore;
+package Programs_Interview_questions.ReverseStringAndMore;
 
 public class ReverseString {
 
@@ -8,9 +8,10 @@ public class ReverseString {
         ReverseString rev = new ReverseString();
 
         rev.reverseString("abcd");
-        rev.reversethisString(" there is a crazy person in this room");
+       // rev.reversethisString(" there is a crazy person in this room");
 
     }
+
 
 
     public void reverseString(String a) {
