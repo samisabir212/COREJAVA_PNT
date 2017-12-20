@@ -12,7 +12,7 @@ public class ArrayListInJava {
 		arrayList.add(2);
 		arrayList.add(9.8);
 		arrayList.add(true);
-		arrayList.add("Test");
+		arrayList.add("O_n_Squared_duplicate_values");
 		arrayList.add(2);
 
 

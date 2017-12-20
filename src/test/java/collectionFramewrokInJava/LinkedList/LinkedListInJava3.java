@@ -12,7 +12,7 @@ public class LinkedListInJava3 {
 
 		linkedList.add("50");
 		linkedList.add("50");
-		linkedList.add("Test");
+		linkedList.add("O_n_Squared_duplicate_values");
 		linkedList.add("100");
 		linkedList.add("true");
 		linkedList.add("50");
@@ -26,7 +26,7 @@ public class LinkedListInJava3 {
 		LinkedList<String> linkedList1 = new LinkedList<String>();
 		linkedList1.add("50");
 		linkedList1.add("50");
-		linkedList1.add("Test");
+		linkedList1.add("O_n_Squared_duplicate_values");
 		linkedList1.add("100");
 		linkedList1.add("true");
 		linkedList1.add("50");

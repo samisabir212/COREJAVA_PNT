@@ -9,7 +9,7 @@ public class LinkedListInJava2 {
 		List<String> linkedList = new LinkedList<String>();
 		linkedList.add("50");
 		linkedList.add("50");
-		linkedList.add("Test");
+		linkedList.add("O_n_Squared_duplicate_values");
 		linkedList.add("100");
 		linkedList.add("true");
 		linkedList.add("50");
@@ -27,7 +27,7 @@ public class LinkedListInJava2 {
 		//System.out.println(linkedList.get(2));
 		//System.out.println(linkedList);
 		
-		//System.out.println(linkedList.contains("Test"));
+		//System.out.println(linkedList.contains("O_n_Squared_duplicate_values"));
 		
 		//System.out.println(linkedList.contains("Test123"));
 		

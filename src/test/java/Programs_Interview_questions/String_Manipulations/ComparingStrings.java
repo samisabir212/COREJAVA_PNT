@@ -50,6 +50,33 @@ public class ComparingStrings {
         //replace the date string from - to /
         System.out.println(date.replace("-", "/"));
 
+        String val = "I_WILL_GET_A+JOB";
+
+        String val_array[] = val.split("_");
+        for (int i = 0; i< val_array.length; i++) {
+
+            System.out.println(val_array[i]);
+
+        }
+
+        //concatinate a string
+        String p = "people";
+
+        System.out.println(p.concat("s"));
+
+
+        String x = "selenium";
+        String y = "java";
+        int a = 100;
+        int b = 200;
+
+        System.out.println(x + y);
+        System.out.println(a + b);
+        System.out.println(x + y + a + b);
+        System.out.println(x + y + (a + b));
+        System.out.println(a + b + x + y);
+
+
 
 
     }

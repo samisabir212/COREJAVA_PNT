@@ -7,7 +7,7 @@ public class ArrayListInJava3 {
 	
 	public static void main(String[] args) {
 	
-		List<Object> arrayList = new ArrayList<Object>();
+		List<Object> arrayList = new ArrayList<Object>(); //adding Objects to array list
 
 		arrayList.add(4);
 		arrayList.add(4);

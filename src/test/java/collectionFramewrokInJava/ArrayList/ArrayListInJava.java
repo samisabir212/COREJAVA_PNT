@@ -15,13 +15,15 @@ public class ArrayListInJava {
 		arrayList.add(2);
 		arrayList.add(9.8);
 		arrayList.add(true); //boolean
-		arrayList.add("Test");
+		arrayList.add("O_n_Squared_duplicate_values");
 		arrayList.add(2);
 
 
 		System.out.println(arrayList);
-		
-		List<Integer> arrayList1 = new ArrayList<Integer>();
+
+
+		//Array list of Integer type
+		List<Integer> arrayList1 = new ArrayList<Integer>(); //sending Integers to arrayList1
 		arrayList1.add(4);
 		arrayList1.add(4);
 		arrayList1.add(5);

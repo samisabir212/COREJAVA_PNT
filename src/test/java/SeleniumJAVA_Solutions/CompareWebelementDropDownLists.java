@@ -14,7 +14,7 @@ public class CompareWebelementDropDownLists {
 
 
 
-    @Test
+    @O_n_Squared_duplicate_values
     public void testUntitled() throws Exception {
         d = new FirefoxDriver();
         d.get("http://register.rediff.com/commonreg/index.php?redr=http://portfolio.rediff.com/money/jsp/loginnew.jsp?redr=home");

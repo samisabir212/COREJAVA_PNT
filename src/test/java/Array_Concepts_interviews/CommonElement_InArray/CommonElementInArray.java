@@ -19,7 +19,7 @@ public class CommonElementInArray {
         commonElementTest.array1 = new int[]{2,3,20,55,10};
         commonElementTest.array2 = new int[]{21,22,2,3,10,32};
 
-        System.out.println(commonElementTest.array1[0]);
+        //System.out.println(commonElementTest.array1[0]);
 
 
 
@@ -34,9 +34,6 @@ public class CommonElementInArray {
         //i will stop when i is greater than the length of arr1
         //j will stop when j is greater than the length of arr2
         for (int i = 0; i < arr1.length; i++) {
-
-
-            //getting index of arr2
             for (int j = 0; j < arr2.length; j++) {
                 //comparing arr1 to arr2
                 if (arr1[i] == arr2[j]) {

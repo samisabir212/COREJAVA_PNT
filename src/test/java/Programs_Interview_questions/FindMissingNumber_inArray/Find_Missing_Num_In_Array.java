@@ -15,7 +15,7 @@ public class Find_Missing_Num_In_Array {
 
         for (int i = 0; i < aLength; i++) {
 
-            sum += a[i];
+            sum = sum+ a[i];
         }
 
         System.out.println(sum);

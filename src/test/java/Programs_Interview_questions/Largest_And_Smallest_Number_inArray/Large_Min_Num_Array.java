@@ -19,8 +19,8 @@ public class Large_Min_Num_Array {
 
         for (int i = 1; i< numbers.length; i++) { //create for loop, start the loop at index of 1 to the length of the array
 
-            if (numbers[i] > largest) {//if index of i is greater than largest int variable which is index 0
-                largest = numbers[i];//then store that index larger than index 0 to "largest"  int variable
+            if (numbers[i] > largest) { //if index of i is greater than largest int variable which is index 0
+                largest = numbers[i]; //then store that index larger than index 0 to "largest"  int variable
 
             } else if (numbers[i] < smallest) {//if index of i is less than largest int variable which is index 0
                 smallest = numbers[i]; //then store that index smaller than index 0 to "smallest" int variable

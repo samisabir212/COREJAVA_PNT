@@ -10,6 +10,7 @@ public class CalculateSumOfNumbersOfArray {
 		int sum = 0;
 
 		for(int arr:a){
+
 			sum = sum + arr;
 		}
 

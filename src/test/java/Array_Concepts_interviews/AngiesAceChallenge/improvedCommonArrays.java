@@ -37,8 +37,8 @@ public class improvedCommonArrays {
 
     public static void main(String[] args) {
 
-        String array1[] = {"z","b","c"};
-        String array2[] = {"a", "p", "z","c"};
+        String array1[] = {"dropdown","list","button","alert"};
+        String array2[] = {"a", "p", "z","button", "alert"};
 
         printDups(array1, array2);
 
@@ -54,22 +54,21 @@ public class improvedCommonArrays {
         //create a hash map call it aMap it holds character as key and integer as value
         Map aMap = new HashMap<Character, Integer>();
 
-        //i will check each index of array length being passed in paramter
+        //i will check each index of the array being passed in paramter
         for (int i = 0; i < a.length; i++) {
 
             //if aMap doesnt contain a key of array1 index of i then put that string and give it an index value of i
             //we are adding the index strings to the aMap hashmap
             if (!aMap.containsKey(a[i])) {
-                aMap.put(a[i], 1);
+                aMap.put(a[i], 1); //if the map doesnt contain that object key than add it and give a value of 1
 
             } else {
 
-                //else put the the object of index a[i] and give it a value
+                //else put the object of index a[i]  and increment the value
                 aMap.put(a[i], (Integer) aMap.get(a[i]) + 1);
 
             }
         }
-
 
         for (int i = 0; i < b.length; i++) {
             if (aMap.containsKey(b[i])) {

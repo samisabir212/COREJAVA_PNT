@@ -21,12 +21,13 @@ public class ArrayListInJava2 {
 		arrayList1.add(9);
 
 		System.out.println("ArrayList1: "+ arrayList1);
-		arrayList.addAll(arrayList1);
+
+		arrayList.addAll(arrayList1);//adding all of arraylist1 into arraylist
 
 		System.out.println(" after adding arraylist1 to arraylist "+arrayList);
 		//arrayList.add(2, 600);
 		
-		arrayList.remove(2);
+		arrayList.remove(2);//removing index 2 of arraylist
 
 		
 		System.out.println("after removing arraylist1 from arraylist "+arrayList);
